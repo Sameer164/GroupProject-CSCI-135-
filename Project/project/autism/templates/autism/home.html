@@ -1,0 +1,36 @@
+{% extends "autism/base.html" %}
+{% load static %}
+{% block content %}
+    <body background="{% static "autism/autismpic.png" %}">
+
+        <div class="content">
+            <div class="content-title">WELCOME!</div>
+
+            <div class="content-main">
+            <div class="round-icon">
+                <img
+                src="{% static 'autism/round.jpg' %}"
+                alt="Italian Trulli"
+                style="width: 300px; height: 300px"
+                class="logo-pic"
+                />
+            </div>
+
+            <div class="about-autism">
+                <h2>About Autism</h2>
+                <p class="par">
+                Autism is a complex, lifelong developmental disability that
+                typically appears during early childhood and can impact a person’s
+                social skills, communication, relationships, and self-regulation.
+                Autism is defined by a certain set of behaviors and is a “spectrum
+                condition” that affects people differently and to varying
+                degrees.While there is currently no known single cause of autism,
+                early diagnosis helps a person receive the support and services
+                that they need, which can lead to a quality life filled with
+                opportunity.
+                </p>
+            </div>
+            </div>
+        </div>
+    </body>
+{% endblock content %}

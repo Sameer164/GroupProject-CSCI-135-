@@ -1,0 +1,272 @@
+
+
+body {
+    background-color: rgb(193, 248, 248);
+    }
+
+/* Header */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.main .col{
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#navbar{
+    display: flex;
+    background: rgb(234, 236, 236);
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.menu-bar .images{
+    display: flex;
+    flex-direction: row;
+}
+.menu-bar .images a{
+    padding-top: 8px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu-bar .images img{
+    padding-top: -2px;
+    padding-right: 10px;
+    height: 100%;
+    width: 4rem;
+}
+
+.menu-bar {
+    background:transparent;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    position: relative;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar ul li {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.menu-bar ul li a {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(57, 56, 56);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.3s;
+}
+.menu-bar ul li a:hover{
+    color: rgb(0, 0, 7);
+}
+
+
+/* main */
+        .game{
+width: 44vw;
+  height: 40vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 4px 7px 29px 0px rgba(69,69,69,0.3);
+  margin-top: 50px;
+  margin-left: 24vw;
+  margin-bottom: 40px;
+  border-radius: 1em;
+}
+
+.img1{
+  height: 100%;
+  width: 50%;
+  background: url("https://res.cloudinary.com/goabhi/image/upload/v1647658717/Screen_Shot_2022-03-18_at_10.58.18_PM_vktktx.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+
+}
+
+.img2{
+  height: 100%;
+  width: 50%;
+  background: url("https://media.istockphoto.com/photos/senior-man-trail-hiking-in-the-forest-at-sunset-picture-id598222532?b=1&k=20&m=598222532&s=170667a&w=0&h=8FCaSZnYzbr0jmXDBEG93a_is29ip1igYfcYni7yojA=") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.img3{
+  height: 100%;
+  width: 50%;
+  background: url("https://www.ixl.com/~media/1/2MTKumS5bmTjMugm58KSouUnrreJEFjb67IbFR0A2MXiPl4itxkicLuxlK0NRWrnJ19RESi66MfeW3LzVr_33Y90nXZS5q3sBuUiTuTC3Gc.svg") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.img5{
+  height: 100%;
+  width: 50%;
+  background: url("https://ecdn.teacherspayteachers.com/thumbitem/Calendar-Fun-games-abbreviations-and-learning-to-read-a-calendar-058859500-1373137398-1629325519/original-758643-2.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+
+.img6{
+  height: 100%;
+  width: 50%;
+  background: url("https://media.npr.org/assets/img/2018/11/02/dc_e32018_quadcopter-8b5baec38a938806163f7b6824edcc5e145bd5d2.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+
+
+.game-name{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.game-name h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.game-category{
+  background-color: #69B1B5;
+  font-size: 15px;
+  padding: 15px 35px;
+  border-radius: 50px;
+  color: white;
+}
+.details{
+  line-height: 13px;
+}
+.details p{
+  font-weight: bold;
+  text-transform: upperCase;
+  font-size: 13px;
+}
+.details p span{
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+
+
+
+/* Footer */
+.footericons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+.footericons li{
+    margin: 0 10px;
+}
+.footericons a{
+    text-decoration: none;
+    color: white;
+}
+.footericons a i {
+    font-size: 30px;
+}
+.icons a:hover i{
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+.footer {
+    display: block;
+}
+
+@media(max-width: 800px){
+    .container.main{
+        display: flex;
+        flex-direction: column;
+    }
+    .col .post:first-child{
+        margin-left: 20px;
+    }
+    .main .col{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+.footer{
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #29699e;
+    background-size: cover;
+    overflow: hidden;
+}
+.footer .main_footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer .terms_condi{
+    color: white;
+    line-height: 1.5rem;
+    padding-top: 25px;
+    display: block;
+}
+.footer .terms_condi .name_prep{
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 3rem;
+}
+.footer .terms_condi .foot_work{
+    text-align: center;
+    font-weight: 100;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.footer_bottom{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer_bottom .more_desc{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+

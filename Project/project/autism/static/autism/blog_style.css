@@ -1,0 +1,278 @@
+
+body {
+    background-color: rgb(193, 248, 248);
+    }
+
+/* Header */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.main .col{
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#navbar{
+    display: flex;
+    background: rgb(234, 236, 236);
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.menu-bar .images{
+    display: flex;
+    flex-direction: row;
+}
+.menu-bar .images a{
+    padding-top: 8px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu-bar .images img{
+    padding-top: -2px;
+    padding-right: 10px;
+    height: 100%;
+    width: 4rem;
+}
+
+.menu-bar {
+    background:transparent;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    position: relative;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar ul li {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.menu-bar ul li a {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(57, 56, 56);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.3s;
+}
+.menu-bar ul li a:hover{
+    color: rgb(0, 0, 7);
+}
+
+
+/* main */
+        .blog{
+width: 44vw;
+  height: 40vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 4px 7px 29px 0px rgba(69,69,69,0.3);
+  margin-top: 50px;
+  margin-left: 24vw;
+  margin-bottom: 40px;
+  border-radius: 1em;
+}
+
+.img1{
+  height: 100%;
+  width: 50%;
+  background: url("https://cdn.glitch.me/e4359ceb-1a1a-4f30-bbc8-5bd01fc4e489%2FKenden-400x445.jpg?v=1635552375282") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+
+}
+
+.img2{
+  height: 100%;
+  width: 50%;
+  background: url("https://cdn.glitch.me/e4359ceb-1a1a-4f30-bbc8-5bd01fc4e489%2F1-600x600.jpg?v=1635552569729") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.img3{
+  height: 100%;
+  width: 50%;
+  background: url("https://592746.smushcdn.com/1156577/wp-content/uploads/2020/02/Canva-the-child-in-wireless-headphones-listens-to-music-at-night-under-a-blanket-and-looks-at-the-tablet.-scaled.jpg?lossy=1&strip=1&webp=1") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.img4{
+  height: 100%;
+  width: 50%;
+  background: url("https://mlzfunx5mdyw.i.optimole.com/kzFTySA-vQ7iAnHb/w:auto/h:auto/q:75/https://tnstep.org/wp-content/uploads/2020/03/Autism-Parenting-Magazine-logo.jpg" ) no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.img5{
+  height: 100%;
+  width: 50%;
+  background: url("https://c.tadst.com/gfx/600x337/rainbow.jpg?1") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+
+.img6{
+  height: 100%;
+  width: 50%;
+  background: url("https://www.pewtrusts.org/-/media/post-launch-images/2018/03/arp_antibiotic_use_in_retail_health_clinics_while_encouraging_shows_room_for_improvement/arp_antibiotic_use_in_retail_health_clinics_while_encouraging_shows_room_for_improvement_16x9.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+
+
+.blog-name{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blog-name h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.blog-category{
+  background-color: #69B1B5;
+  font-size: 15px;
+  padding: 15px 35px;
+  border-radius: 50px;
+  color: white;
+}
+.details{
+  line-height: 13px;
+}
+.details p{
+  font-weight: bold;
+  text-transform: upperCase;
+  font-size: 13px;
+}
+.details p span{
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+
+
+
+/* Footer */
+.footericons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+.footericons li{
+    margin: 0 10px;
+}
+.footericons a{
+    text-decoration: none;
+    color: white;
+}
+.footericons a i {
+    font-size: 30px;
+}
+.icons a:hover i{
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+.footer {
+    display: block;
+}
+
+@media(max-width: 800px){
+    .container.main{
+        display: flex;
+        flex-direction: column;
+    }
+    .col .post:first-child{
+        margin-left: 20px;
+    }
+    .main .col{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+.footer{
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #29699e;
+    background-size: cover;
+    overflow: hidden;
+}
+.footer .main_footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer .terms_condi{
+    color: white;
+    line-height: 1.5rem;
+    padding-top: 25px;
+    display: block;
+}
+.footer .terms_condi .name_prep{
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 3rem;
+}
+.footer .terms_condi .foot_work{
+    text-align: center;
+    font-weight: 100;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.footer_bottom{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer_bottom .more_desc{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}

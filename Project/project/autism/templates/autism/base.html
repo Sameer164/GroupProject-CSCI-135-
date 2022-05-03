@@ -1,0 +1,44 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Webpage Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static "autism/style.css" %}" />
+    {% block extrahead %}
+    {% endblock extrahead %}
+  </head>
+  <main>
+    <div class="navbar">
+      <div class="icon">
+        <a href="{% url 'home-page' %}"> <div class="logo-font">Spectrum</div></a>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="{% url 'home-page' %}">HOME</a></li>
+          <li><a href="{% url 'game-page' %}">GAME</a></li>
+          <li><a href="{% url 'discussion-page' %}">DISCUSSION</a></li>
+          <li><a href="{% url 'contact-page' %}">CONTACT US</a></li>
+          <li><a href="{% url 'search-page' %}">SCHOOL NEARBY</a></li>
+          <li><a href="{% url 'blog-page' %}">BLOGS</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    {% block content %}
+    {% endblock content %}
+  </main>
+
+  <footer class="footer">
+    <p>Spectrum ‐ 2022 &copy; All Rights Reserved</p>
+  </footer>
+
+
+</html>

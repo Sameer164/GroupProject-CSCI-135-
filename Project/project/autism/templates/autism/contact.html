@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="{% static "autism/style.css" %}">
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="icon">
+          <a href="{% url "home-page" %}"> <div class="logo-font">Spectrum</div></a>
+        </div>
+      
+        <div class="menu">
+            <ul>
+              <li><a href="{% url 'home-page' %}">HOME</a></li>
+              <li><a href="{% url 'game-page' %}">GAME</a></li>
+              <li><a href="{% url 'discussion-page' %}">DISCUSSION</a></li>
+              <li><a href="{% url 'contact-page' %}">CONTACT US</a></li>
+              <li><a href="{% url 'search-page' %}">SCHOOL NEARBY</a></li>
+              <li><a href="{% url 'blog-page' %}">BLOGS</a></li>
+            </ul>
+          </div>
+
+      </div>
+    </header>
+
+    <main id="contact-form-container">
+      <section class="contactForm">
+        <div class="background">
+          <div class="container">
+            <div class="screen">
+              <div class="screen-body">
+                
+                <div class="screen-body-item left">
+                  <div class="app-title">
+                    <span>We would love to hear from you</span>
+                  </div>
+                  <div class="contact-image">
+                    <img src="{% static "autism/message.jpg" %}" alt="dog" >
+                  </div>
+                </div>
+
+                <div class="screen-body-item">
+
+                  <div class="app-form">
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="NAME">
+                    </div>
+                    
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="EMAIL">
+                    </div>
+                    
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="CONTACT NO">
+                    </div>
+                    
+                    <div class="app-form-group message">
+                      <input class="app-form-control" placeholder="MESSAGE">
+                    </div>
+                    
+                    <div class="app-form-group buttons">
+                      <button class="app-form-button">SEND</button>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <footer class="footer">
+      <p>
+        Spectrum ‐ 2022 &copy; All Rights Reserved
+      </p>
+    </footer>  
+    
+  </body>
+</html>
